@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AMAMAM Squad — Dark Red</title>
+  <meta name="description" content="Тёмный минималистичный сайт с красными акцентами, анимациями и удобной навигацией. Готов для GitHub Pages." />
+  <link rel="preload" href="css/style.css" as="style">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="nav-wrap">
+    <nav class="nav">
+      <div class="brand">
+        <div class="brand-logo" aria-hidden="true"></div>
+        <a href="#home" class="brand-title">AMAMAM Squad</a>
+      </div>
+      <div class="menu" role="navigation" aria-label="Основное меню">
+        <a href="#home">Главная</a>
+        <a href="#news">Новости</a>
+        <a href="#memes">Мемы</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#videos">Видео</a>
+        <a href="#contact" class="cta">Контакты</a>
+      </div>
+    </nav>
+  </div>
+
+  <header id="home" class="hero">
+    <div class="hero-inner">
+      <div class="reveal">
+        <span class="chip"><i></i> Тёмный минимализм с красными акцентами</span>
+        <h1>Красиво. Быстро. Понятно.<br/>Анимации без перегруза.</h1>
+        <p>Статический сайт для GitHub Pages. Контент редактируется в <code>data/content.json</code>.</p>
+        <div class="actions">
+          <a class="cta" href="#news">Смотреть новости</a>
+          <a class="cta" href="#gallery">Открыть галерею</a>
+        </div>
+      </div>
+      <div class="banner reveal" aria-label="Баннер">
+        <span class="pulse"></span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="news" class="container">
+      <h2 class="reveal">Новости</h2>
+      <div id="newsList" class="grid grid-3"></div>
+    </section>
+
+    <section id="memes" class="container">
+      <h2 class="reveal">Мемы</h2>
+      <div id="memesList" class="grid grid-3"></div>
+    </section>
+
+    <section id="gallery" class="container">
+      <h2 class="reveal">Галерея</h2>
+      <div id="galleryGrid" class="gallery"></div>
+    </section>
+
+    <section id="videos" class="container">
+      <h2 class="reveal">Видео</h2>
+      <div id="videosList" class="grid grid-2"></div>
+    </section>
+
+    <section id="contact" class="container">
+      <h2 class="reveal">Контакты</h2>
+      <div class="card reveal">
+        <div class="eyebrow">Напиши нам</div>
+        <h3>Discord</h3>
+        <p>Залетай: <a id="discordLink" href="#" target="_blank" rel="noopener">discord.gg/your-link</a></p>
+        <div style="height:8px"></div>
+        <div class="eyebrow">Email</div>
+        <p><a id="emailLink" href="mailto:admin@example.com">admin@example.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <span id="footerSlogan">“Услышал тебя родной”</span>
+      <span id="year"></span> © <span class="brand-title">AMAMAM Squad</span>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox"><img alt="preview"/><button class="close">Закрыть</button></div>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "projectName": "AMAMAM Squad",
+    "slogan": "Услышал тебя родной",
+    "discord": "https://discord.gg/your-link",
+    "email": "admin@example.com",
+    "bannerImage": "assets/images/banner1.svg"
+  },
+  "news": [
+    {
+      "title": "Запуск сайта",
+      "t": "Первая версия развернута на GitHub Pages.",
+      "date": "2025-09-29"
+    },
+    {
+      "title": "Обновление галереи",
+      "t": "Добавили новые скриншоты и арты.",
+      "date": "2025-10-01"
+    },
+    {
+      "title": "Видео раздел",
+      "t": "Теперь поддерживаем MP4.",
+      "date": "2025-10-05"
+    }
+  ],
+  "memes": [
+    {
+      "title": "Мем #1",
+      "t": "Легендарный мем дня.",
+      "img": "assets/images/meme1.svg"
+    },
+    {
+      "title": "Мем #2",
+      "t": "AMAMAM вайб.",
+      "img": "assets/images/meme2.svg"
+    },
+    {
+      "title": "Мем #3",
+      "t": "Смешной момент.",
+      "img": "assets/images/meme3.svg"
+    }
+  ],
+  "gallery": [
+    {
+      "cap": "Баннер",
+      "img": "assets/images/banner1.svg"
+    },
+    {
+      "cap": "Игровой кадр",
+      "img": "assets/images/shot1.svg"
+    },
+    {
+      "cap": "Арты",
+      "img": "assets/images/art1.svg"
+    },
+    {
+      "cap": "Комьюнити",
+      "img": "assets/images/community.svg"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Трейлер #1",
+      "src": "",
+      "poster": "assets/images/trailer1_poster.svg"
+    },
+    {
+      "title": "Moment #2",
+      "src": "",
+      "poster": "assets/images/moment2_poster.svg"
+    }
+  ]
+}
