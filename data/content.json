@@ -2,14 +2,14 @@
   "meta": {
     "projectName": "AMAMAM Squad",
     "slogan": "Услышал тебя родной",
-    "discord": "https://discord.gg/your-link",
-    "email": "admin@example.com",
+    "discord": "https://discord.gg/pJrsauJArF",
+    "email": "dasonchik@bk.ru",
     "bannerImage": "assets/images/banner1.svg"
   },
   "news": [
     {
       "title": "Запуск сайта",
-      "t": "Первая версия развернута на GitHub Pages.",
+      "t": "amamam version 1.",
       "date": "2025-09-29"
     },
     {
