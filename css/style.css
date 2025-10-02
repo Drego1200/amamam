@@ -47,9 +47,7 @@ button{font:inherit}
   min-height:260px;
   position:relative;
   box-shadow: var(--shadow);
-}
-
-.banner::after{content:"";position:absolute;inset:0;background:radial-gradient(600px 200px at 80% -60px,rgba(224,17,95,.35),transparent 70%)}
+} 
 
 .container{max-width:1200px;margin:0 auto;padding:32px 18px}
 .grid{display:grid;gap:18px} .grid-3{grid-template-columns:repeat(3,minmax(0,1fr))} .grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}
